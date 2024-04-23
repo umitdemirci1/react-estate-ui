@@ -1,7 +1,6 @@
 @import "./responsive.scss";
 
 .layout {
-  background-color: rebeccapurple;
   height: 100vh;
   max-width: 1366px;
   margin-left: auto;
@@ -11,15 +10,12 @@
   flex-direction: column;
 
   @include lg {
-    background-color: pink;
     max-width: 1024px;
   }
   @include md {
-    background-color: rgb(121, 121, 238);
     max-width: 768px;
   }
   @include sm {
-    background-color: rgb(243, 156, 156);
     max-width: 640px;
   }
 
